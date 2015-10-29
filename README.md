@@ -45,9 +45,10 @@ or add the following entry in your `package.json`:
 ## Expected result when building the project
 
 ### NativeScript CLI
-In the default scenario the build should succeed and the build `.ipa` must contain the `I_MADE_THIS_FILE.txt` file.
+In the default scenario the build should succeed and the build `.ipa` must contain the `I_MADE_THIS_FILE.txt` file. The file should be created in `<project_dir>/platforms/ios/<project_name>/app/`.
+
 In case you open `<cli_install_dir>/config/config.json` and set `USE_POD_SANDBOX` to `false`, the build should do the same.
 
 ### AppBuilder
 In the default scenario the build should succeed and the build `.ipa` must contain the `I_MADE_THIS_FILE.txt` file.
-The build will fail in case it is not whitelisted.
+The build will fail in case this plugin is not whitelisted.

@@ -1,4 +1,4 @@
-# nativescript-ios-working-with-sandbox-plugin
+# ios-working-with-sandbox-plugin
 Plugin used for testing sandbox-pod and pod support in nativescript-cli.
 This plugin will try to create file called `I_MADE_THIS_FILE.txt` in `<project_name>/platforms/app/` directory.
 The build `.ipa` should contain this file.
@@ -8,14 +8,14 @@ The build `.ipa` should contain this file.
 ### NativeScript CLI:
 In your project execute:
 ```
-$ tns plugin add https://github.com/rosen-vladimirov/nativescript-ios-working-with-sandbox-plugin/tarball/master
+$ tns plugin add ios-working-with-sandbox-plugin
 ```
 
 or add the following entry in your `package.json`:
 
 ```JSON
 "dependencies": {
-	"nativescript-ios-working-with-sandbox-plugin": "https://github.com/rosen-vladimirov/nativescript-ios-working-with-sandbox-plugin/tarball/master"
+	"ios-working-with-sandbox-plugin": "1.0.0"
 }
 ```
 
@@ -24,21 +24,21 @@ Add the following entry in your `package.json`:
 
 ```JSON
 "dependencies": {
-	"nativescript-ios-working-with-sandbox-plugin": "https://github.com/rosen-vladimirov/nativescript-ios-working-with-sandbox-plugin/tarball/master"
+	"ios-working-with-sandbox-plugin": "1.0.0"
 }
 ```
 
 ### AppBuilder CLI
 In your project execute:
 ```
-$ appbuilder plugin add https://github.com/rosen-vladimirov/nativescript-ios-working-with-sandbox-plugin/tarball/master
+$ appbuilder plugin add ios-working-with-sandbox-plugin
 ```
 
 or add the following entry in your `package.json`:
 
 ```JSON
 "dependencies": {
-	"nativescript-ios-working-with-sandbox-plugin": "https://github.com/rosen-vladimirov/nativescript-ios-working-with-sandbox-plugin/tarball/master"
+	"ios-working-with-sandbox-plugin": "1.0.0"
 }
 ```
 

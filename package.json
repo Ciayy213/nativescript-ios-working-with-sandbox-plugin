@@ -1,7 +1,7 @@
 {
-  "name": "nativescript-ios-working-with-sandbox-plugin",
+  "name": "ios-working-with-sandbox-plugin",
   "version": "1.0.0",
-  "description": "Plugin used for testing sandbox-pod and pod support in nativescript-cli",
+  "description": "Plugin used for testing sandbox-pod.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

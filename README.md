@@ -15,7 +15,7 @@ or add the following entry in your `package.json`:
 
 ```JSON
 "dependencies": {
-	"ios-working-with-sandbox-plugin": "1.0.0"
+	"ios-working-with-sandbox-plugin": "1.0.2"
 }
 ```
 
@@ -24,7 +24,7 @@ Add the following entry in your `package.json`:
 
 ```JSON
 "dependencies": {
-	"ios-working-with-sandbox-plugin": "1.0.0"
+	"ios-working-with-sandbox-plugin": "1.0.2"
 }
 ```
 
@@ -38,7 +38,7 @@ or add the following entry in your `package.json`:
 
 ```JSON
 "dependencies": {
-	"ios-working-with-sandbox-plugin": "1.0.0"
+	"ios-working-with-sandbox-plugin": "1.0.2"
 }
 ```
 

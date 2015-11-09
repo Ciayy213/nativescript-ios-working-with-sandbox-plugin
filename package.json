@@ -1,6 +1,6 @@
 {
   "name": "ios-working-with-sandbox-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin used for testing sandbox-pod.",
   "main": "index.js",
   "scripts": {
